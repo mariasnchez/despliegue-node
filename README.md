@@ -10,6 +10,9 @@
     <li>node --version</li>
     <li>npm --version</li>
     <br>
+    <img src="./imagenes/3.png" alt="" style="height: 100px; width: auto;">
+    <br>
+    <br>
 
 <h3>Paso 3</h3>
     <p>Debemos crear una carpeta para nuestro proyecto en donde guardaremos los archivos. </p>
@@ -57,14 +60,16 @@
         });</p>
 
 <h3>Paso 6</h3>
-    <p><strong> Iniciar el servidor</strong></p>
+    <p> <u> Iniciar el servidor</u></p>
     <p>Abrimos la terminal en nuestra carpeta.</p>
     <p>Escribimos el siguiente comando:</p>
     <li>node app.js</li>
     <p>Nos debe aparecer en la terminal "Servidor corriendo en http://DESKTOP-DL545SN:8080/" </p>
+    <img src="./imagenes/2.png" alt="" style="height: 70px; width: auto;">
     <p>Si clickamos en el enlace nos aparecerá nuestra página "Hola mundo".</p>
+    <img src="./imagenes/1.png" alt="" style="height: 100px; width: auto;">
 
 <h3>Paso 7</h3>
-    <p><strong>Parar el servidor</strong></p>
+    <p><u>Parar el servidor</u></p>
     <p>Pulsamos las teclas CTRL+C</p>
-    <p>Nuestro servidor estaría inactivo.</p>
+    <p>Nuestro servidor estaría inactivo</p>
