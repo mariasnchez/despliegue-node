@@ -10,7 +10,7 @@ hooks:
     - location: scripts/beforeInstall.sh
       timeout: 300
       runas: root
-  Install:
+  AfterInstall:
     - location: scripts/install.sh
       timeout: 300
       runas: root
