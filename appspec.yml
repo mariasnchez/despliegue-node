@@ -1,0 +1,24 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ubuntu/app/release
+    overwrite: true
+file_exists_behavior: OVERWRITE
+hooks:
+  BeforeInstall:
+    - location: scripts/beforeInstall.sh
+      timeout: 300
+      runas: root
+  Install:
+    - location: scripts/install.sh
+      timeout: 300
+      runas: root
+  ApplicationStart:
+    - location: scripts/startService.sh
+      timeout: 300
+      runas: root
+  ApplicationStop:
+    - location: scripts/stopService.sh
+      timeout: 300
+      runas: root
